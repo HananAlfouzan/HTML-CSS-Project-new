@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #2b2c48;
+  font-family: "Jost", sans-serif;
+  background-image: url(https://raw.githubusercontent.com/abdullah-alsabi-tuwaiq/HTML-CSS-Project/main/background-image.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+
+  .profile-avatar {
+    transform: none;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    bottom: 100px;
+  }
+
+  
+  .profile-fullname {
+    position: absolute;
+    left: 150px;
+    top: 40px;
+    font-size: 14px
+  }
+
+  .profile-jobtitle {
+    position: absolute;
+    left: 150px;
+    top: 62px;
+    font-size: 10px;
+  }
+.profile-summary{
+    position: absolute;
+    left: 150px;
+    top: 80px;
+    font-size: 8px;
+
+ .space1{
+        position: absolute;
+        left: 300px;
+        top: 80px;
+        font-size: 20px
+     }
+
+}
+table, th, td {
+    border: 2px solid green;
+    text-align: left;
+    font-size: 8px;
+  }
+
+  .table1d {
+    border: 2px solid green;
+    text-align: left;
+    font-size: 8px;
+    font-style: inherit;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+  }
+.contact-button:focus {
+    background-color: rgba(234, 73, 73, 0.8);
+    position: center;
+    button
+  }
+ 
+ 
+ .space2{
+    position: absolute;
+    left: 280px;
+    top: 230px;
+    font-size: 20px
+ }
+
+ .space1{
+    position: absolute;
+    left: 245px;
+    top: 90px;
+    font-size: 20px
+ }
+ .contact-button{
+    position: absolute;
+    background-color: rgba(234, 73, 73, 0.8);
+    color: wheat ;
+    left: 245px;
+    top: 550px;
+    font-size: 15px
+ }
+ .yourname{
+    position: center;
+    left: 150px;
+    top: 100px;
+    font-size: 14px
+  }
+
+  .youremail{
+    position: center;
+    left: 150px;
+    top: 200px;
+    font-size: 14px
+  }
+  .yourmessage{
+    position: center;
+    left: 150px;
+    top: 300px;
+    font-size: 14px
+  }
+
+
